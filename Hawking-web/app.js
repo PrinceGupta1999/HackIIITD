@@ -45,6 +45,10 @@ passport.deserializeUser(User.deserializeUser());
 
 // middleware which will run for every route
 // it will send the user details by passport to every page
+
+
+
+
 app.use(function(req, res, next) {
   res.locals.currentUser = req.user;
   res.locals.error = req.flash("error");
