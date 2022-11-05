@@ -15,7 +15,7 @@
     "express": "^4.15.4",
     "express-session": "^1.15.5",
     "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "https": "^1.0.0",
     "json2csv": "^3.11.4",
     "method-override": "^2.3.9",
